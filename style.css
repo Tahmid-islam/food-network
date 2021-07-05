@@ -1,0 +1,11 @@
+.navbar {
+  text-align: center;
+  padding: 0.5em;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 1em;
+  font-weight: bolder;
+  color: black;
+}
