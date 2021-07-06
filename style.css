@@ -16,6 +16,12 @@ body {
   color: black;
   width: 100%;
 }
+.navbar a:hover {
+  background-image: linear-gradient(45deg, #ff883d, #ff2a00);
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
 
 .flexible {
   display: flex;
@@ -72,14 +78,7 @@ body {
   background-image: url(./images/background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 0%;
-  padding-bottom: 0%;
   align-items: center;
-}
-
-.my-recipe-description {
-  padding-top: 10px;
-  text-align: center;
 }
 
 .recipes {
@@ -102,6 +101,11 @@ body {
 
 .recipe-item img {
   width: 95%;
+}
+
+.my-recipe-description {
+  padding-top: 10px;
+  text-align: center;
 }
 
 .follower {
